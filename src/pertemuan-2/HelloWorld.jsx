@@ -22,7 +22,7 @@ export default function HelloWorld(){
 	          />
               <UserCard {...propsUserCard}/>
 
-              <img src="img/Logo_Resmi_PCR.png"alt="Logo" width="100"/>
+              <img src="public/img/Logo_Resmi_PCR.png"alt="Logo" width="100"/>
         </div>
     )
 }
