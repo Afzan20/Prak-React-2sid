@@ -1,13 +1,15 @@
 import { FaShoppingCart, FaTruck, FaBan, FaDollarSign } from "react-icons/fa";
 import PageHeader from "../components/PageHeader";
+import Header from "../layouts/Header";
 // import PieChartCard from "../components/PieChartCard";
 // import CustomerMap from "../components/CustomerMap";
 
 export default function Dashboard() {
   return (
     <div id="dashboard-container">
-
+      <Header/>
       <PageHeader />
+      
 
       {/* TOP CARD */}
       <div className="p-5 grid sm:grid-cols-2 md:grid-cols-4 gap-5">

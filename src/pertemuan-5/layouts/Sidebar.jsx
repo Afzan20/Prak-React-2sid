@@ -43,7 +43,7 @@ export default function Sidebar({ activeMenu, setActiveMenu }) {
                                 Menu lain  → abu-abu
                             */}
                             <div
-                                id={menu-${item.id}}
+                                id={`menu-${item.id}`}
                                 onClick={() => setActiveMenu(item.id)}
                                 className={`flex cursor-pointer items-center rounded-xl p-4 font-medium transition-all duration-200
                                     ${activeMenu === item.id
