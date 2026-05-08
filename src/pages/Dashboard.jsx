@@ -1,6 +1,6 @@
 import { FaShoppingCart, FaTruck, FaBan, FaDollarSign } from "react-icons/fa";
 import PageHeader from "../components/PageHeader";
-import Header from "../layouts/Header";
+import Header from "../components/Header";
 // import PieChartCard from "../components/PieChartCard";
 // import CustomerMap from "../components/CustomerMap";
 
@@ -8,11 +8,9 @@ export default function Dashboard() {
   return (
     <div id="dashboard-container">
       <PageHeader />
-      
 
       {/* TOP CARD */}
       <div className="p-5 grid sm:grid-cols-2 md:grid-cols-4 gap-5">
-
         <div className="flex items-center space-x-5 bg-white rounded-xl shadow p-4 dark:bg-gray-800">
           <div className="bg-hijau rounded-full p-4">
             <FaShoppingCart className="text-2xl text-white" />
@@ -52,7 +50,6 @@ export default function Dashboard() {
             <p className="text-gray-400 text-sm">Total Revenue</p>
           </div>
         </div>
-
       </div>
 
       {/* CHART SECTION (INI IMPROVISASI BARU) */}
@@ -67,7 +64,6 @@ export default function Dashboard() {
         <CustomerMap />
 
       </div> */}
-
     </div>
   );
 }
