@@ -7,7 +7,6 @@ import Header from "../layouts/Header";
 export default function Dashboard() {
   return (
     <div id="dashboard-container">
-      <Header/>
       <PageHeader />
       
 
@@ -56,7 +55,7 @@ export default function Dashboard() {
 
       </div>
 
-      {/* 🔥 CHART SECTION (INI IMPROVISASI BARU) */}
+      {/* CHART SECTION (INI IMPROVISASI BARU) */}
       {/* <div className="px-5 pb-5 grid md:grid-cols-3 gap-5">
 
        
